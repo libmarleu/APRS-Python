@@ -24,19 +24,19 @@ import datetime
 
 # --------------- CONFIGURATION ---------------
 
-ServerHost = 'firenet.us'
-ServerPort = 10154
+ServerHost = 'noam.aprs2.net'
+ServerPort = 10152
 
-Callsign = 'N0CALL'
+Callsign = 'KALT'
 SSID = '-5'
-Password = '12345' # Generate here: https://apps.magicbug.co.uk/passcode/
+Password = '29943' # Generate here: https://apps.magicbug.co.uk/passcode/
 
 Latitude = '0000.00N'
 Longitude = '00000.00W'
 
-Comment = 'https://github.com/EvanVS/APRS-Python'
-Status = 'APRS Python'
-Status_Packet = False # False = Do not send status message packet
+Comment = 'TEST'
+Status = 'TEST FROM KALT'
+Status_Packet = True # False = Do not send status message packet
 
 Primary_Symbol_Key = '/'
 Secondary_Symbol_Key = '_' # Default is the House symbol. More info here: https://blog.thelifeofkenneth.com/2017/01/aprs-symbol-look-up-table.html
